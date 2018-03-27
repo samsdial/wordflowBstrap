@@ -1,0 +1,29 @@
+extends ./base/layout.pug
+
+block content
+    nav.navbar.has-shadow
+        .container
+            .navbar-brand
+                a.navbar-item
+                    h2 logo
+                a.navbar-item.is-hidden-desktop
+                    h2 link resposives
+            .navbar-menu
+                .navbar-end
+                    .navbar-tabs
+                        a.navbar-link.is-tab Inicio
+                        .navbar-dropdown
+                           a.navbar-item.is-tab Item
+                    .navbar-tabs
+                        a.navbar-item.is-tab Inicio
+    main
+        section.section
+            .container
+                .columns.notification
+                    .column
+                        hr
+                        h2 Mis tareas
+                        hr
+                .columns.notification
+                    .column
+                        pre {{ $data }}
