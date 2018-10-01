@@ -1,0 +1,85 @@
+// buttons
+.btn
+    border: none
+    box-shadow: none
+    border-radius: 25px
+    font-size: 1.6rem
+    font-family: $primary-font
+    padding: 0.8em 1.2em
+    cursor: pointer
+    text-transform: uppercase
+    font-weight: 600
+    -webkit-appearance: inherit
+    transition: all 0.3s ease-in-out
+    &_submit
+        width: 100%
+        color: white
+        background-color: $blue
+        border-bottom: 5px solid transparent
+        +press
+            color: white
+            border-bottom: 5px solid $lightBlue
+    &_ghost
+        +btnGhost
+    &-box
+        z-index: 12
+        margin-top: 0px
+        display: none
+        width: 70%
+        position: relative
+        +MQ(L)
+            display: inline-block
+            width: auto
+    &-full
+        width: 100%
+    &_quote
+        position: relative
+        line-height: 24px
+        color: $white
+        font-size: 15px
+        font-weight: 700
+        padding: 8px 30px
+        background-color: $fire
+        text-transform: uppercase
+        border: 2px solid transparent
+        top: 8px
+        +press
+            background-color: $firedark
+            color: $white
+        +MQ(M)
+            top: inherit
+            padding: 11px 52px
+    &_site
+        background-color: $red
+        color: $white
+        +press
+            background-color: $fire
+            color: $white
+        span.icon
+            &:after
+                content: "+"
+                margin-right: 12px
+        &--gray
+            background-color: silver
+            color: $white
+        &--green
+            background-color: $green
+            color: $white
+        &--gold
+            background-color: $gold
+            color: $white
+        &--orange
+            background-color: $darkorange
+            color: $white
+        &--red
+            background-color: $red
+            color: $white !important
+            +press
+                background-color: $fire
+                color: $white
+.disabled
+    cursor: no-drop
+    +press
+        color: $silver
+        p
+            color: $silver

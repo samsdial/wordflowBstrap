@@ -1,0 +1,41 @@
+// list.sass
+.list
+    &--inline
+        padding-right: 0px
+        padding-left: 0px
+        margin-left: 0px
+        list-style: none
+        vertical-align: middle
+        position: relative
+        &>li
+            display: inline-block
+            padding-left: 0px
+            padding-right: 0px
+            vertical-align: middle
+            position: relative
+            z-index: 19
+            +MQMAX(S)
+                padding-left: 10px
+                padding-right: 10px
+.list
+    &_site
+        li
+            position: relative
+            padding-left: 35px
+            padding-bottom: 5px
+        li:after
+            position: absolute
+            top: -30px
+            left: 0px
+            color: $blue
+            font-size: 55px
+            font-weight: 900
+            content: "-"
+    &_contact
+        display: table
+        table-layout: fixed
+        width: 100%
+        padding: 2.5rem 0
+        li
+            display: table-cell
+            padding: 0px

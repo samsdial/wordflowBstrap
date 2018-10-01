@@ -1,0 +1,115 @@
+// text.sass
+.title,
+.subtitle,
+.paragraf
+    display: block
+.paragraf
+    &_em2
+        p
+            +font-size(1.5)
+//.tag_data
+.txt
+    &_weight
+        &900
+            font-weight: 900
+            +header
+                font-weight: 900
+            p
+                font-weight: 900
+    &_italic
+        font-style: italic
+
+    &_center
+        text-align: center
+    &_upper
+        text-transform: uppercase
+    &_capital
+        text-transform: capitalize
+    &_right
+        text-align: right
+    &_shadow
+        text-shadow: 0px 2px 2px ($black)
+    &_size
+        &--em1
+            +font-size(1.5)
+            li,
+            p,
+            b,
+            span
+                +font-size(1.5)
+            +heading
+                +font-size(1.5)
+        &--em2
+            +font-size(2)
+            li,
+            p,
+            b,
+            span
+                +font-size(2)
+            +heading
+                +font-size(2)
+        &--em3
+            +font-size(3)
+            li,
+            p,
+            b,
+            span
+                +font-size(3)
+            +heading
+                +font-size(3)
+        &--em4
+            +font-size(4)
+            li,
+            p,
+            b,
+            span
+                +font-size(4)
+            +heading
+                +font-size(4)
+        &--em5
+            +font-size(5)
+            li,
+            p,
+            b,
+            span
+                +font-size(5)
+            +heading
+                +font-size(5)
+        &--em6
+            +font-size(6)
+            li,
+            p,
+            b,
+            span
+                +font-size(6)
+            +heading
+                +font-size(6)
+    &_completed
+        text-decoration: line-through
+        font-style: italic
+        color: $gainsboro
+.completado
+    text-decoration: line-through
+    font-style: italic
+    color: $gainsboro
+
+.title
+    &_site
+        +header
+            position: relative
+            display: inline-block
+            padding-bottom: 18px
+            &:after
+                position: absolute
+                content: ''
+                left: 0px
+                bottom: 0px
+                width: 50px
+                height: 10px
+                background-color: $red
+                border-bottom: 5px solid $black
+        &.txt_center
+            +header
+                &:after
+                    left: 50%
+                    margin-left: -25px

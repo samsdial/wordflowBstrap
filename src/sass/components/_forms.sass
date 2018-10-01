@@ -1,0 +1,89 @@
+// forms
+
+fieldset
+    border: none
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+    border: none
+    -webkit-text-fill-color: $blue
+    -webkit-box-shadow: 0 0 0px 1000px $white inset
+    transition: background-color 5000s ease-in-out 0s
+input
+    &.form-control
+        border-radius: 25px
+        padding: 1.7rem 1.2rem
+.newslatter
+    position: relative
+    .register.error
+        input.newslatter_input
+            border: 1px solid red
+
+.contact_form
+    position: relative
+    from
+        width: 100%
+
+.contact_form
+    label
+        position: relative
+        width: 100%
+        display: block
+input
+    &.name
+        & + .error.i
+                &:before
+                    content: "Escriba el nombre."
+    &.lastname
+        & + .error.i
+            &:before
+                content: "Escriba el apellido."
+    &.email
+        & + .error.i
+            &:before
+                content: "Escriba el Email."
+
+    &.cel
+        & + .error.i
+            &:before
+                content: "Escriba el Celular de contacto."
+    &.city
+        & + .error.i
+            &:before
+                content: "Escriba la ciudad."
+    &+error
+        &:before
+            display: none
+            transform: $trs-site
+        &i:before
+            display: block
+    &+.error.i
+        &:before
+            font-size: 10px
+            color: red
+            display: inline-block
+            text-align: right
+            padding-left: 1.3rem
+.apply.i
+    text-align: center
+    &:before
+        content: "Gracias por contactarnos. Enviado"
+        font-size: 14px
+        padding-top: 1.2rem
+        color: green
+        display: inline-block
+.apply
+    &:before
+        display: none
+        transform: $trs-site
+    &i:before
+        display: block
+
+.form_column
+    position: relative
+    display: inline-block
+    padding: 95px 15px 100px 100px
+    vertical-align: top
+    +MQMAX(S)
+        padding: 95px 15px

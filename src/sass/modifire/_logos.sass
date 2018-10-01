@@ -1,0 +1,37 @@
+// logos
+.logo
+    display: inline-block
+    position: relative
+    &-dh
+        background: url('../images/theme/logo_dh.svg')no-repeat center center/90%
+        background-color: white
+        width: 100px
+        height: 100px
+        position: absolute
+        top: 0
+        z-index: 9
+        +MQ(S)
+            width: 125px
+            height: 125px
+            background-color: transparent
+        //+MQ(M)
+            left: 47%
+        //+MQ(L)
+            left: 46%
+    &_box
+        //position: relative
+        z-index: 25
+        text-align: center
+        position: relative
+        margin: auto
+        width: inherit
+        display: inline-block
+        padding: 15px 0px 0px
+
+        +MQ(M)
+            width: inherit
+            display: inline-block
+            padding: 15px 0px 0px
+        +MQ(L)
+            display: inline-block
+

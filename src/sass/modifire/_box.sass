@@ -1,0 +1,35 @@
+// box
+.box
+    &_shadow
+        box-shadow: 0 1px 1px rgba($black, .05)
+    &_form
+        display: inline-block
+        position: relative
+        border-radius: 26px
+        &_title
+            display: inline-block
+            position: relative
+            border-top-left-radius: 26px
+            border-top-right-radius: 26px
+            padding: 1.8rem 1.8rem
+.float_img
+    //z-index: 99
+    &:after
+        content: ""
+        //display: inline-block
+        position: absolute
+        bottom: 0
+        left: -343px
+        background: transparent url("/../images/float_render.png")no-repeat center center/contain
+        width: 363px
+        height: 153px
+        z-index: 1
+.form-horizontal
+    z-index: 99
+.deco
+    &:after
+        content: ""
+        display: inline-block
+        width: 100%
+        height: 65px
+        background: transparent url('/../images/deco.png')no-repeat bottom center/106%
