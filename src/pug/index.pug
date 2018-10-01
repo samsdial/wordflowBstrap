@@ -1,29 +1,86 @@
 extends ./base/layout.pug
 
 block content
-    nav.navbar.has-shadow
+    .header_main.bgc--white
         .container
-            .navbar-brand
-                a.navbar-item
-                    h2 logo
-                a.navbar-item.is-hidden-desktop
-                    h2 link resposives
-            .navbar-menu
-                .navbar-end
-                    .navbar-tabs
-                        a.navbar-link.is-tab Inicio
-                        .navbar-dropdown
-                           a.navbar-item.is-tab Item
-                    .navbar-tabs
-                        a.navbar-item.is-tab Inicio
-    main
-        section.section
+            .navbar-header
+                a(href="#")
+                    span.icon.icon_site
+            .box_social.txt_right
+                ul.list.list--inline
+                    li
+                        a(href="#")
+                            span.icon.icon_facebook
+                    li
+                        a(href="#")
+                            span.icon.icon_twitter
+                    li
+                        a(href="#")
+                            span.icon.icon_youtube
+                    li
+                        a(href="#")
+                            span.icon.icon_instagram
+    section.bgi.bgi--intro
+        .container
+            .col-xs-6.mg_top--x50
+                h2.txt_upper.txt_weight900.cl--blue.txt_size--em5 Conoce la nueva línea de la serie CP
+                span.icon.icon_qsc
+            .col-xs-4.mg_left--x100.mg_top--x50
+                .box_form.bgc--gains
+                    .deco
+                        .box_form_title.bgc--blue.txt_center
+                            h2.txt_upper.txt_weight900.cl--white.txt_size--em3  ¡COMPRA O COTIZA EL TUYO AHORA!
+                    .col-xs-12.float_img
+                        form.form-horizontal
+                            .form-group
+                                .col-xs-12.pd_bottom--x0i
+                                    input.form-control.name(type="text", placeholder="Nombre")
+                                    .error
+                                .col-xs-12.pd_bottom--x0i
+                                    input.form-control.lastname(type="text", placeholder="Apellido")
+                                    .error
+                                .col-xs-12.pd_bottom--x0i
+                                    input.form-control.email(type="text", placeholder="Correo Electrónico")
+                                    .error
+                                .col-xs-12.pd_bottom--x0i
+                                    input.form-control.cel(type="text", placeholder="Celular")
+                                    .error
+                                .col-xs-12.pd_bottom--x0i
+                                    input.form-control.city(type="text", placeholder="Ciudad")
+                                    .error
+                            .form-group
+                                .col-xs-12
+                                    button.btn.btn_submit Enviar
+                                    .apply
+        .container.mg_top--x100
+            .col-xs-6.txt_right
+                span.icon.icon_warranty
+            .col-xs-6
+                h3.title.txt_upper.txt_weight900.cl--blue.mg_left--x35 Posibilidades de montaje que ofrece:
+                ul.list.list_site.txt_upper.txt_weight900
+                    li
+                        p socket para base de cabina
+                    li
+                        p cuña o monitor de piso
+                    li
+                        p puntos M10 para suspensión
+    footer
+        .box_footer.bgc--white
             .container
-                .columns.notification
-                    .column
-                        hr
-                        h2 Mis tareas
-                        hr
-                .columns.notification
-                    .column
-                        pre {{ $data }}
+                ul.list.list--inline.list_contact
+                    li
+                        span.icon.icon_beast_solution
+                    li
+                        span.icon.icon_calidad
+                    li
+                        span.icon.icon_easy
+                    li
+                        span.icon.icon_potencia
+        .box_footer.bgc--blue.cl--white.txt_center.pd_top--x15.pd_botton--x15
+            p Av. Boyacá No.71-73, Bogotá. PBX: 438 5285
+
+            p Horario: Lun - Vie 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm
+
+            p © 2018 Todos los derechos reservados YAMAKI SAS, Colombia.
+
+            p Para más información visita qsc.com/cp

@@ -71,6 +71,7 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('watch',['browserSync', 'sass'], function() {
+    gulp.watch('src/images/**/*', ['images']);
     gulp.watch('src/sass/**/*.sass', ['sass']);
     gulp.watch('src/pug/**/*.pug', ['compile-pug']);
     gulp.watch('src/js/**/*.js', ['compile-js']);

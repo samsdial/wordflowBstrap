@@ -1,1 +1,1 @@
-{"version":3,"sources":["custom.js"],"names":["vm","Vue","el","data","methods","computed"],"mappings":"aACA,IAAMA,GAAK,IAAIC,KAATD,GAAAA,OACFE,MACAC,WAAM,MAAAC,WAFVC","file":"custom.js","sourcesContent":["\r\nconst vm = new Vue ({\r\n    el: 'main',\r\n    data: {\r\n        nuevaTarea: null,\r\n    },\r\n    methods:{\r\n\r\n    },\r\n    computed: {\r\n\r\n    }\r\n});\r\n"]}
+{"version":3,"sources":["custom.js"],"names":[],"mappings":"AAAA","file":"custom.js","sourcesContent":["\"use strict\";"]}
