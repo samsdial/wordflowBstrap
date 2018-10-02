@@ -4,21 +4,21 @@ block content
     .header_main.bgc--white
         .container
             .navbar-header
-                a(href="#")
-                    span.icon.icon_site
+                span.icon.icon_site
+                a.btn_ghost(href="https://www.yamaki.com.co", target="_blank")
             .box_social.txt_right
                 ul.list.list--inline
                     li
-                        a(href="#")
+                        a(href="https://www.facebook.com/yamaki.com.co/", target="_blank")
                             span.icon.icon_facebook
                     li
-                        a(href="#")
+                        a(href="https://twitter.com/yamaki_sas", target="_blank")
                             span.icon.icon_twitter
                     li
-                        a(href="#")
+                        a(href="https://www.youtube.com/channel/UCpYorDbHo8Lygu5wuOuz--A", target="_blank")
                             span.icon.icon_youtube
                     li
-                        a(href="#")
+                        a(href="https://www.instagram.com/yamakisas/", target="_blank")
                             span.icon.icon_instagram
     section.bgi.bgi--intro
         .container
@@ -34,24 +34,25 @@ block content
                         form.form-horizontal
                             .form-group
                                 .col-xs-12.pd_bottom--x0i
-                                    input.form-control.name(type="text", placeholder="Nombre")
+                                    input#name.form-control.name(type="text", placeholder="Nombre")
                                     .error
                                 .col-xs-12.pd_bottom--x0i
-                                    input.form-control.lastname(type="text", placeholder="Apellido")
+                                    input#lastName.form-control.lastname(type="text", placeholder="Apellido")
                                     .error
                                 .col-xs-12.pd_bottom--x0i
-                                    input.form-control.email(type="text", placeholder="Correo Electrónico")
+                                    input#email.form-control.email(type="text", placeholder="Correo Electrónico")
                                     .error
                                 .col-xs-12.pd_bottom--x0i
-                                    input.form-control.cel(type="text", placeholder="Celular")
+                                    input#phone.form-control.cel(type="text", placeholder="Celular")
                                     .error
                                 .col-xs-12.pd_bottom--x0i
-                                    input.form-control.city(type="text", placeholder="Ciudad")
+                                    input#city.form-control.city(type="text", placeholder="Ciudad")
                                     .error
                             .form-group
                                 .col-xs-12
-                                    button.btn.btn_submit Enviar
-                                    .apply
+                                    button#submit.btn.btn_submit Enviar
+                                    .alerta
+                                        p
         .container.mg_top--x100
             .col-xs-6.txt_right
                 span.icon.icon_warranty

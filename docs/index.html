@@ -11,21 +11,21 @@
     <meta name="revisit-after" content="3 month">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Lequar">
-    <title>Sams - WordFlow</title>
-    <meta name="description" content="Descricion">
-    <meta name="abstract" content="item, ">
-    <meta name="keywords" content="">
+    <title>Conoce la nueva línea de la Serie CP de QSC -- Yamaki - Yamaki</title>
+    <meta name="description" content="Conoce la nueva línea de la Serie CP de QSC -- Yamaki">
+    <meta name="abstract" content="Rendimiemto, Calida y confiabilidad de QSC a precio razonable.">
+    <meta name="keywords" content="yamaki, qsc, Sonido">
     <link rel="canonical" href="">
     <link rel="shortlink" href="">
-    <meta property="og:title" content="Sams">
+    <meta property="og:title" content="Conoce la nueva línea de la Serie CP de QSC -- Yamaki">
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
-    <meta property="og:url" content="http://localhost:3000/docs">
+    <meta property="og:url" content="www.yamaki.com.co/cpseries">
     <meta property="og:site_name" content="web">
-    <meta property="og:description" content="Descricion">
-    <meta name="twitter:url" content="http://localhost:3000/docs">
-    <meta name="twitter:title" content="Sams">
-    <meta name="twitter:description" content="Descricion">
+    <meta property="og:description" content="Conoce la nueva línea de la Serie CP de QSC -- Yamaki">
+    <meta name="twitter:url" content="www.yamaki.com.co/cpseries">
+    <meta name="twitter:title" content="Conoce la nueva línea de la Serie CP de QSC -- Yamaki">
+    <meta name="twitter:description" content="Conoce la nueva línea de la Serie CP de QSC -- Yamaki">
     <link href="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css" rel="stylesheet" media="screen">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
@@ -37,13 +37,13 @@
   <body style="position: relative;">
     <div class="header_main bgc--white">
       <div class="container">
-        <div class="navbar-header"><a href="#"><span class="icon icon_site"></span></a></div>
+        <div class="navbar-header"><span class="icon icon_site"></span><a class="btn_ghost" href="https://www.yamaki.com.co" target="_blank"></a></div>
         <div class="box_social txt_right">
           <ul class="list list--inline">
-            <li><a href="#"><span class="icon icon_facebook"></span></a></li>
-            <li><a href="#"><span class="icon icon_twitter"></span></a></li>
-            <li><a href="#"><span class="icon icon_youtube"></span></a></li>
-            <li><a href="#"><span class="icon icon_instagram"></span></a></li>
+            <li><a href="https://www.facebook.com/yamaki.com.co/" target="_blank"><span class="icon icon_facebook"></span></a></li>
+            <li><a href="https://twitter.com/yamaki_sas" target="_blank"><span class="icon icon_twitter"></span></a></li>
+            <li><a href="https://www.youtube.com/channel/UCpYorDbHo8Lygu5wuOuz--A" target="_blank"><span class="icon icon_youtube"></span></a></li>
+            <li><a href="https://www.instagram.com/yamakisas/" target="_blank"><span class="icon icon_instagram"></span></a></li>
           </ul>
         </div>
       </div>
@@ -64,30 +64,32 @@
               <form class="form-horizontal">
                 <div class="form-group">
                   <div class="col-xs-12 pd_bottom--x0i">
-                    <input class="form-control name" type="text" placeholder="Nombre">
+                    <input class="form-control name" id="name" type="text" placeholder="Nombre">
                     <div class="error"></div>
                   </div>
                   <div class="col-xs-12 pd_bottom--x0i">
-                    <input class="form-control lastname" type="text" placeholder="Apellido">
+                    <input class="form-control lastname" id="lastName" type="text" placeholder="Apellido">
                     <div class="error"></div>
                   </div>
                   <div class="col-xs-12 pd_bottom--x0i">
-                    <input class="form-control email" type="text" placeholder="Correo Electrónico">
+                    <input class="form-control email" id="email" type="text" placeholder="Correo Electrónico">
                     <div class="error"></div>
                   </div>
                   <div class="col-xs-12 pd_bottom--x0i">
-                    <input class="form-control cel" type="text" placeholder="Celular">
+                    <input class="form-control cel" id="phone" type="text" placeholder="Celular">
                     <div class="error"></div>
                   </div>
                   <div class="col-xs-12 pd_bottom--x0i">
-                    <input class="form-control city" type="text" placeholder="Ciudad">
+                    <input class="form-control city" id="city" type="text" placeholder="Ciudad">
                     <div class="error"></div>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="col-xs-12">
-                    <button class="btn btn_submit">Enviar</button>
-                    <div class="apply"></div>
+                    <button class="btn btn_submit" id="submit">Enviar</button>
+                    <div class="alerta">
+                      <p></p>
+                    </div>
                   </div>
                 </div>
               </form>
