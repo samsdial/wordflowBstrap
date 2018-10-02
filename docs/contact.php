@@ -26,7 +26,7 @@ if ($name!=null && $lastName!=null && $email!=null && $phone!=null && $city!=nul
 	</table>
 	";
     $title = "Nuevo mensaje de contacto en YAMAKI QSC";
-    $to = 'dialstudios@gmial.com';
+    $to = 'mercadeo@yamaki.com';
 
     $headers  = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
