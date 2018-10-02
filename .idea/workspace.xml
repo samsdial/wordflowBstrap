@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="All Url changes&#10;">
+    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="All PHP changes&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/contact.php" afterPath="$PROJECT_DIR$/docs/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/maps/style.css.map" afterPath="$PROJECT_DIR$/docs/css/maps/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/style.css" afterPath="$PROJECT_DIR$/docs/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/common/_mixing.sass" afterPath="$PROJECT_DIR$/src/sass/common/_mixing.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modifire/_bg.sass" afterPath="$PROJECT_DIR$/src/sass/modifire/_bg.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modifire/_box.sass" afterPath="$PROJECT_DIR$/src/sass/modifire/_box.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modifire/_icon.sass" afterPath="$PROJECT_DIR$/src/sass/modifire/_icon.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modifire/_list.sass" afterPath="$PROJECT_DIR$/src/sass/modifire/_list.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modifire/_margin.sass" afterPath="$PROJECT_DIR$/src/sass/modifire/_margin.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,16 +34,70 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/contact.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="292">
+              <caret line="72" column="53" lean-forward="true" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_margin.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/modifire/_margin.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="88" column="59" lean-forward="false" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-315">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1538492153468" expanded="true" signature="743:1221" ph="..." />
-                <marker date="1538492153468" expanded="true" signature="868:1211" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="3612:5591" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="3656:5576" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="3687:3905" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="3751:3886" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="3951:5559" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="3996:5540" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="4037:5210" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="4094:4262" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="4319:4497" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="4554:4736" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="4793:4962" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="5019:5187" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="5251:5518" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="5293:5495" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="5413:5470" ph="..." />
+                <marker date="1538517067701" expanded="true" signature="5647:6252" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_list.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/modifire/_list.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pug/base/layout.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,7 +105,7 @@
       <file leaf-file-name="_variables.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/common/_variables.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="523">
               <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="23" />
               <folding />
             </state>
@@ -52,8 +115,18 @@
       <file leaf-file-name="_bg.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/modifire/_bg.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="399">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixing.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/common/_mixing.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -62,8 +135,8 @@
       <file leaf-file-name="_icon.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/modifire/_icon.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="139">
+              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -72,8 +145,8 @@
       <file leaf-file-name="_box.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/modifire/_box.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="454">
+              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,6 +166,9 @@
       <find>form</find>
       <find>_submit</find>
       <find>/../images</find>
+      <find>titl</find>
+      <find>container.mg_top--x100</find>
+      <find>_contact</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\SMARTINEZ\home\stage\src\sass</dir>
@@ -127,22 +203,22 @@
         <option value="$PROJECT_DIR$/src/sass/layouts/_counter.sass" />
         <option value="$PROJECT_DIR$/src/sass/layouts/_services.sass" />
         <option value="$PROJECT_DIR$/src/sass/modifire/_text.sass" />
-        <option value="$PROJECT_DIR$/src/sass/modifire/_margin.sass" />
-        <option value="$PROJECT_DIR$/src/sass/modifire/_list.sass" />
         <option value="$PROJECT_DIR$/src/sass/modifire/_padding.sass" />
         <option value="$PROJECT_DIR$/src/sass/components/_buttons.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/sass/common/_variables.sass" />
-        <option value="$PROJECT_DIR$/src/sass/common/_mixing.sass" />
         <option value="$PROJECT_DIR$/src/pug/base/layout.pug" />
         <option value="$PROJECT_DIR$/src/sass/components/_forms.sass" />
         <option value="$PROJECT_DIR$/src/js/custom.js" />
         <option value="$PROJECT_DIR$/src/sass/layouts/_header.sass" />
-        <option value="$PROJECT_DIR$/src/pug/index.pug" />
-        <option value="$PROJECT_DIR$/src/sass/modifire/_bg.sass" />
+        <option value="$PROJECT_DIR$/docs/contact.php" />
+        <option value="$PROJECT_DIR$/src/sass/common/_mixing.sass" />
+        <option value="$PROJECT_DIR$/src/sass/modifire/_margin.sass" />
         <option value="$PROJECT_DIR$/src/sass/modifire/_box.sass" />
         <option value="$PROJECT_DIR$/src/sass/modifire/_icon.sass" />
-        <option value="$PROJECT_DIR$/docs/contact.php" />
+        <option value="$PROJECT_DIR$/src/sass/modifire/_list.sass" />
+        <option value="$PROJECT_DIR$/src/sass/modifire/_bg.sass" />
+        <option value="$PROJECT_DIR$/src/pug/index.pug" />
       </list>
     </option>
   </component>
@@ -211,6 +287,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,24 +391,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,7 +501,8 @@
       <workItem from="1514578541201" duration="31000" />
       <workItem from="1522177047370" duration="69000" />
       <workItem from="1538402363036" duration="25724000" />
-      <workItem from="1538488114045" duration="4021000" />
+      <workItem from="1538488114045" duration="5313000" />
+      <workItem from="1538511936251" duration="4578000" />
     </task>
     <task id="LOCAL-00001" summary="Add nuevo curso Vue js Parte 1">
       <created>1514305735134</created>
@@ -511,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538491354245</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="All PHP changes&#10;">
+      <created>1538492189330</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1538492189330</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65111000" />
+    <option name="totallyTimeSpent" value="70981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1873" height="1056" extended-state="0" />
@@ -527,10 +597,9 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20585048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33370104" sideWeight="0.5105008" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33370104" sideWeight="0.48949918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33756205" sideWeight="0.5169628" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33756205" sideWeight="0.48303714" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Copy/Paste" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -541,6 +610,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -583,7 +653,8 @@
     <MESSAGE value="All Archive old&#10;" />
     <MESSAGE value="All Entrega Final one&#10;" />
     <MESSAGE value="All Url changes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Url changes&#10;" />
+    <MESSAGE value="All PHP changes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="All PHP changes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,13 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -753,14 +817,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modifire/_margin.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/float_render.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -769,14 +825,6 @@
     <entry file="file://$PROJECT_DIR$/docs/images/float_render.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modifire/_list.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/modifire/_text.sass">
@@ -807,23 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/common/_mixing.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,54 +882,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <marker date="1538492153468" expanded="true" signature="743:1221" ph="..." />
+            <marker date="1538492153468" expanded="true" signature="868:1211" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1538517067701" expanded="true" signature="3612:5591" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="3656:5576" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="3687:3905" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="3751:3886" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="3951:5559" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="3996:5540" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="4037:5210" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="4094:4262" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="4319:4497" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="4554:4736" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="4793:4962" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="5019:5187" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="5251:5518" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="5293:5495" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="5413:5470" ph="..." />
+            <marker date="1538517067701" expanded="true" signature="5647:6252" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/base/layout.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/common/_variables.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="523">
           <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modifire/_bg.sass">
+    <entry file="file://$PROJECT_DIR$/src/sass/common/_mixing.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="735">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/modifire/_margin.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="88" column="59" lean-forward="false" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/modifire/_box.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="454">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/modifire/_icon.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="139">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/contact.php">
+    <entry file="file://$PROJECT_DIR$/src/sass/modifire/_list.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1538492153468" expanded="true" signature="743:1221" ph="..." />
-            <marker date="1538492153468" expanded="true" signature="868:1211" ph="..." />
-          </folding>
+        <state relative-caret-position="257">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/modifire/_bg.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="72" column="53" lean-forward="true" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

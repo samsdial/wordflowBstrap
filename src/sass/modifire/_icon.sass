@@ -51,8 +51,12 @@
         height: 72px
     &_warranty:before
         background-image: url('./../images/icon_warranty.png')
-        width: 389px
+        width: 350px
         height: 172px
+        background-size: 89%
+        +MQ(M)
+            width: 389px
+            background-size: cover
     &_beast_solution:before
         background-image: url('./../images/icon_beast_solution.png')
         width: 248px

@@ -32,10 +32,15 @@
             font-weight: 900
             content: "-"
     &_contact
-        display: table
+        display: block
         table-layout: fixed
         width: 100%
         padding: 2.5rem 0
+        +MQ(M)
+            display: table
         li
-            display: table-cell
+            display: block
             padding: 0px
+            text-align: center
+            +MQ(M)
+                display: table-cell

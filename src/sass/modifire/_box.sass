@@ -12,6 +12,7 @@
             border-top-left-radius: 26px
             border-top-right-radius: 26px
             padding: 1.8rem 1.8rem
+            width: 100%
 .float_img
     //z-index: 99
     &:after
@@ -32,6 +33,12 @@
         content: ""
         display: inline-block
         width: 100%
-        height: 65px
         background: transparent url('/../images/deco.png')no-repeat bottom center/106%
         background: transparent url('./../images/deco.png')no-repeat bottom center/106%
+        height: 65px
+        +MQ(S)
+            height: 121px
+        +MQ(M)
+            height: 51px
+        +MQ(L)
+            height: 65px

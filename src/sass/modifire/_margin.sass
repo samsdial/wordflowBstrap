@@ -26,6 +26,7 @@ $base-mg-spacing: 10px
                 margin-top: $base-mg-spacing*5
             &100
                 margin-top: $base-mg-spacing * 10
+
                 &i
                     +MQ(S)
                         margin-top: $base-mg-spacing * 5 !important
@@ -70,6 +71,9 @@ $base-mg-spacing: 10px
 
             &100
                 margin-left: $base-mg-spacing * 10
+                &desktop
+                    +MQ(M)
+                        margin-left: $base-mg-spacing * 10
     &_right
         &--x
 
@@ -80,3 +84,6 @@ $base-mg-spacing: 10px
 
             &100
                 margin-right: $base-mg-spacing * 10
+                &desktop
+                    +MQMAX(M)
+                        margin-right: $base-mg-spacing * 10
