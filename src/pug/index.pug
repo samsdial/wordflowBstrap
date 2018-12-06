@@ -1,87 +1,17 @@
 extends ./base/layout.pug
 
 block content
-    .header_main.bgc--white
-        .container
-            .navbar-header
-                span.icon.icon_site
-                a.btn_ghost(href="https://www.yamaki.com.co", target="_blank")
-            .box_social.txt_right
-                ul.list.list--inline
-                    li
-                        a(href="https://www.facebook.com/yamaki.com.co/", target="_blank")
-                            span.icon.icon_facebook
-                    li
-                        a(href="https://twitter.com/yamaki_sas", target="_blank")
-                            span.icon.icon_twitter
-                    li
-                        a(href="https://www.youtube.com/channel/UCpYorDbHo8Lygu5wuOuz--A", target="_blank")
-                            span.icon.icon_youtube
-                    li
-                        a(href="https://www.instagram.com/yamakisas/", target="_blank")
-                            span.icon.icon_instagram
-    section.bgi.bgi--intro
-        .container
-            .col-xs-12.col-sm-6.mg_top--x50
-                h2.txt_upper.txt_weight900.cl--blue.txt_size--em5 Conoce la nueva linea CP SERIES DE QSC
-                span.icon.icon_qsc
-            .col-xs-12.col-sm-4.mg_left--x100desktop.mg_top--x50
-                .box_form.bgc--gains
-                    .deco
-                        .box_form_title.bgc--blue.txt_center
-                            h2.txt_upper.txt_weight900.cl--white.txt_size--em3  ¡COMPRA O COTIZA EL TUYO AHORA!
-                    .col-xs-12.float_img
-                        form.form-horizontal
-                            .form-group
-                                .col-xs-12.pd_bottom--x0i
-                                    input#name.form-control.name(type="text", placeholder="Nombre")
-                                    .error
-                                .col-xs-12.pd_bottom--x0i
-                                    input#lastName.form-control.lastname(type="text", placeholder="Apellido")
-                                    .error
-                                .col-xs-12.pd_bottom--x0i
-                                    input#email.form-control.email(type="text", placeholder="Correo Electrónico")
-                                    .error
-                                .col-xs-12.pd_bottom--x0i
-                                    input#phone.form-control.cel(type="text", placeholder="Celular")
-                                    .error
-                                .col-xs-12.pd_bottom--x0i
-                                    input#city.form-control.city(type="text", placeholder="Ciudad")
-                                    .error
-                            .form-group
-                                .col-xs-12
-                                    button#submit.btn.btn_submit Enviar
-                                    .alerta
-                                        p
-        .container.mg_top--x150
-            .col-xs-12.col-sm-6.txt_right
-                span.icon.icon_warranty
-            .col-xs-12.col-sm-6
-                h3.title.txt_weight900.cl--blue.mg_left--x35 Posibilidades de montaje que ofrece:
-                ul.list.list_site.txt_upper.txt_weight900
-                    li
-                        p socket para base de cabina
-                    li
-                        p cuña o monitor de piso
-                    li
-                        p puntos M10 para suspensión
-    footer
-        .box_footer.bgc--white
-            .container
-                ul.list.list--inline.list_contact
-                    li
-                        span.icon.icon_beast_solution
-                    li
-                        span.icon.icon_calidad
-                    li
-                        span.icon.icon_easy
-                    li
-                        span.icon.icon_potencia
-        .box_footer.bgc--blue.cl--white.txt_center.pd_box--x15
-            p Av. Boyacá No.71-73, Bogotá. PBX: 438 5285
+    section.container.cover-container
+        // content-area
+        .row.align-items-center
+            .col.txt_center
+                .title.mb-5.txt_upper
+                    h1.cover-heading Cover your page.
+                .paragraf.mb-5
+                    p.lead
+                        | Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
+                .acction
+                    p.lead
+                        a.btn.btn-lg.btn-secondary(href='#') Learn more
 
-            p Horario: Lun - Vie 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm
-
-            p © 2018 Todos los derechos reservados YAMAKI SAS, Colombia.
-
-            p Para más información visita qsc.com/cp
+        // Content-area/
